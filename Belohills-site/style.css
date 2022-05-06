@@ -1,0 +1,314 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 999;
+    font-size: 50px;
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+}
+
+
+.header:after{
+    content: '#f1f1f1';
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.menu {
+    display: flex;
+    background-color: #333;
+    justify-content:center;
+    flex-direction: row;
+    align-items:baseline;
+    padding: 0px 30px;
+    position: fixed;
+    top: 100px;
+    width: 100%;
+    z-index: 999;
+
+}
+
+
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    box-sizing: border-box;
+    position: relative;
+    font-size: 20px;
+    font-family: "Bebas Neue";
+}
+ 
+
+.menu a:hover {
+    background-color: #ddd;
+    color: black;
+
+}
+
+.card-header2 h2{
+    background-color: #ffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "bebas neue";
+    font-size: 40px;
+    color: #000;
+    margin: 70px 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.card-body2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    color: #000;
+    margin: 0 50px;
+
+
+}
+
+.card-text2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    position: relative;
+    color: #000;
+    text-align: center;
+    font-size: 17px;
+
+    
+
+}
+
+
+
+
+/*hospedagem */
+
+.title-hospedagem h2{
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "bebas neue";
+    font-size: 30px;
+    color: #000;
+    margin: 88px;
+    padding: 40px
+
+}
+
+.mais-acomodacoes-buttom{
+    text-align: center;
+    margin: 50px;
+    padding: 20px;
+
+}
+
+.card{
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    padding: 30 20px;
+    margin: 0 20px;
+}
+
+
+
+.descricao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    margin: 20px;
+    font-size: 18px;
+    font-family: "arial";
+    color: #000;
+    
+}
+
+
+/* transporte */
+
+.transporte{
+    margin: 30px 40px;
+    padding: 20px;
+}
+
+.transporte h2{
+    background-color: #f1f1f1;
+    display: flex;
+    color: rgb(10, 10, 10);
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    font-family:'Bebas Neue', cursive;
+    padding: 30px 60px;
+    margin: 40px;
+}
+
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items:stretch;
+    flex-direction: row;
+    flex-grow: 1;
+    padding: 30px;
+    margin:  0 auto;
+    box-sizing: border-box; 
+    border-radius: 10px;
+
+   
+}
+
+.box-descricao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    margin:  0 auto;
+    box-sizing: border-box;
+
+    margin: 8px;
+    font-size: 15;
+    font-family: "arial";
+    text-align: center;
+    justify-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    .header{
+        font-size: 30px;
+    }
+    .menu{
+        flex-direction:row;
+    }
+    .menu a{
+        font-size: 20px;
+    }
+    .card-header2 h2{
+        font-size: 30px;
+    }
+    .card-body2{
+        font-size: 20px;
+    }
+    .card-text2{
+        font-size: 15px;
+    }
+    .title-hospedagem h2{
+        font-size: 20px;
+    }
+    .mais-acomodacoes-buttom{
+        font-size: 20px;
+    }
+    .card{
+        font-size: 20px;
+    }
+    .descricao{
+        font-size: 15px;
+    }
+    .transporte h2{
+        font-size: 20px;
+    }
+    .box1{
+        font-size: 20px;
+    }
+    .box-descricao{
+        font-size: 15px;
+    }
+
+    
+}
+
+
+   
+/* onde ir*/
+
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
+    padding: 30px 60px;
+    margin: 90px;
+    background-color: #f1f1f1;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+
+}
+
+.section h2{
+    text-align: center;
+    font-family:'Bebas Neue', cursive;
+    font-size: 30px;
+}
+
+.section p{
+
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 40px;
+    padding: 0 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+
+
+.footer{
+        display: flex;
+        background-color: rgb(7, 7, 7);
+        color: #ddd;
+        justify-content: center;
+        padding: 20px;
+}
